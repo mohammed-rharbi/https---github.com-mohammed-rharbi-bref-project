@@ -74,6 +74,7 @@ html {
 .w3l-recipes7{
   background-color: #26628a !important;
 }
+
 .title-info{
   margin-top: 70px;
   text-align: center;
@@ -91,6 +92,9 @@ html {
       display: inline-block;
       
   } 
+  .adrees{
+    padding-top: 50px;
+  }
   .user-det{
       display:flex ;
       justify-content: center;
@@ -128,6 +132,12 @@ html {
       background-color: rgb(240, 143, 33);
       color:white;   
   }
+  input[type="submit"]{
+    width:200px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: -150px;
+  }
   .mapouter{
       display: flex;
       margin-left: auto;
@@ -136,14 +146,8 @@ html {
   }
 
   .gmap_canvas{
+    border:5px solid black;
     border-radius:50px;
-  }
-
-  .input-sub{
-      display: flex;
-      height: 40px;
-      margin-top: 50px;
-      margin-left: -90px;
   }
 
 article,
@@ -2206,7 +2210,7 @@ pre code {
 .table-active,
 .table-active>th,
 .table-active>td {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: rgba(252, 17, 17, 0.075);
 }
 
 .table-hover .table-active:hover {
